@@ -1,6 +1,6 @@
 # Claude Agent Toolkit
 
-Open-source framework for building AI agents powered by Claude.
+Open-source framework for building AI agents powered by Claude API.
 
 ## Features
 
@@ -8,27 +8,11 @@ Open-source framework for building AI agents powered by Claude.
 - coding assistants
 - automation workflows
 - tool integrations
+- Claude API integration
 
 ## Installation
 
-git clone https://github.com/YOURNAME/claude-agent-toolkit
-
+```bash
+git clone https://github.com/9cjyt86269-arch/claude-agent-toolkit.git
 cd claude-agent-toolkit
-
 npm install
-
-## Usage
-
-Set your Claude API key
-
-export ANTHROPIC_API_KEY=your_key
-
-Run demo
-
-node examples/research-demo.js
-
-## Roadmap
-
-- multi-agent orchestration
-- workflow automation
-- tool plugins
